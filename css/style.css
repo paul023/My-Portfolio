@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    font-size: 1rem;
+    border-radius: 5rem;
+    background: linear-gradient(45deg, #0376fa, #3405b3);
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    box-shadow:0 10px 20px 0 rgba(0,0,0,0,15);
+    transition:0.8s cubic-bezier(0.2,1,0.2,1);
+}
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px 0 rgb(0,0,0,0.25);
+  }
+
+
+
+.portfolio .box-container{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+.portfolio .box-container.box{
+    height: 20rem;
+    width: 30rem;
+    margin: 0.3rem;
+    overflow: hidden;
+
+}
+.portfolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+
+    
+
